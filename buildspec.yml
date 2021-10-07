@@ -14,3 +14,7 @@ artifacts:
   type: zip
   files:
     - '**/*'
+    -
+cache:
+  paths:
+    - 'vendor/**/*'
