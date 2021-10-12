@@ -6,15 +6,11 @@ phases:
       php: latest
   build:
     commands:
-      - php -v
-      - echo Build started on `date`
       - composer install
-
 artifacts:
   type: zip
   files:
     - '**/*'
-
 cache:
   paths:
     - 'vendor/**/*'
